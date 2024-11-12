@@ -1,0 +1,134 @@
+/* General Page Styling */
+body {
+    background-color: powderblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header img.profile-picture {
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.nav_menu {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav_menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: under;
+    font-size: 18
+    padding:20px 25px;
+   
+}
+
+.nav_menu a:hover {
+    background-color: white;
+    color: #333;
+    transition: 0.3s;
+}
+
+/* Section Headings */
+.section h2, .section h3, .section h4 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px 0;
+}
+
+/* Card Container Styling */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.card h3, .card h4 {
+    color: #333;
+    margin-top: 0;
+}
+
+.card p, .card ul {
+    color: dark gray;
+}
+
+/* Specific Styling for Education and Experience */
+.education, #experience {
+    background-color: light gray;
+}
+
+.education h2, #experience h2 {
+    color: red;
+    font-size: 24px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+/* Additional Styling for Images within Cards */
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+a:link { color: red; }
+a:visited { color: blue; }
+a:hover { background-color: white; color: #333; }
+a:active { color: green; }
+
+
+@media (max-width: 768px) {
+    .card-container {
+    flex-direction: column;
+    align-items: center;
+    }
+    .nav_menu a {
+    float: none;
+    display: block;
+    text-align: center;
+padding: 10px;
+font-size: 16px;
+    }
+}
+
+body {
+  color: brown;
+}
+
+h1 {
+  color: green;
+  
+}
+h3 {color:green;
